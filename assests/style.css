@@ -5,7 +5,7 @@
 
 *{
     font-family: 'Inter', sans-serif;
-    background-color:#f3f3f3  
+    /* background-color:#f3f3f3    */
 }
  
 /* header and navbar start */
@@ -38,6 +38,100 @@ margin-right: 10px ;
 
 /* header and navbar end */
 
+
+
+/* mini cards section start */
+.slider1_card{
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    width: 23%;
+    /* margin-top: -12%; */
+    border-radius: 10px;
+    padding-inline-end: 2%;
+}
+.slider2_card{
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    width: 23%;
+    /* margin-top: -12%; */
+    border-radius: 10px;
+}
+.slider3_card{
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    width: 23%;
+    /* margin-top: -12%; */
+    border-radius: 10px;
+}
+.slider4_card{
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    width: 23%;
+    /* margin-top: -12%; */
+    border-radius: 10px;
+}
+ 
+@media (min-width:768px) and (max-width:991px){
+    .slider1_card{
+        margin-top: -20%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .slider2_card{
+        margin-top: -20%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .slider3_card{
+        margin-top: -20%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .slider4_card{
+        margin-top: -20%;
+    }
+    
+}
+
+@media (min-width:991px) and (max-width:1640px){
+    .slider1_card{
+        margin-top: -11%;
+    }
+    
+}
+
+@media (min-width:991px) and (max-width:1640px){
+    .slider2_card{
+        margin-top: -11%;
+    }
+    
+}
+
+@media (min-width:991px) and (max-width:1640px){
+    .slider3_card{
+        margin-top: -11%;
+    }
+    
+}
+@media (min-width:991px) and (max-width:1640px){
+    .slider4_card{
+        margin-top: -11%;
+    }
+    
+}
+
+
+/* mini cards section end */
 
 
 
@@ -172,3 +266,30 @@ color: #555555;
 /* section4 ends in home page */
 
 
+/* map container start */
+
+.map_con{
+    background-image: url('images/map_org.png ') ;
+ 
+    background-size: cover;
+    background-position: center;
+ 
+}
+@media (min-width:1200px) {
+    
+
+
+.map_con{
+    margin-left:   80px !important;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    
+
+
+    .map_con{
+        margin-left:   90px !important;
+    }
+    }
+/* map container end */
