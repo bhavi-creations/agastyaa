@@ -4,7 +4,8 @@
 
 
 *{
-    font-family: 'Inter', sans-serif;  
+    font-family: 'Inter', sans-serif;
+    background-color:#f3f3f3  
 }
  
 /* header and navbar start */
@@ -83,15 +84,13 @@ color: #1F803E;
 
 }
 
-.img1 {
-
+/* .img1 {
 border-radius: 5px;
-/* margin-left: 180px; */
 position:relative ;
 
 }
 
-.img2 {
+.container .img2 {
     position:absolute;
 }
 
@@ -102,4 +101,74 @@ position:relative ;
 
 .img4 {
     position: relative;
+    
 }
+ */
+
+/* end section1 in home page */
+
+
+/* start section3 in home page */
+.button {
+    width: 291px;
+height: 60px;
+
+border-radius: 52px;
+border-width: 0px;
+border-color: white;
+display: flex;
+justify-content: center;
+margin-left: 50px;
+
+background-color: white;
+padding:10px;
+
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color:#1F803E;
+}
+
+/* section3 ends in home page */
+
+/* starts section 4 in home page */
+.sec4-heading {
+    font-family: Poppins;
+font-size: 35px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color:#1F803E;
+}
+
+.sec4-para {
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #555555;
+}
+
+.button2 {
+    width: 120px;
+    height: 40px;
+    top: 4145px;
+    left: 816px;
+    padding: 11.22px, 24.74px, 11.22px, 24.74px;
+    border-radius: 28.81px;
+    gap: 16.13px;
+    background-color: #1F803E;
+    color:white;
+    border-width:0px;
+    
+}
+
+/* section4 ends in home page */
+
+
