@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family: 'Inter', sans-serif;  
+}
+ 
+
+/* header and navbar start */
+
+.white-icon {
+    color:   #1F803E;
+    font-weight: bolder;
+  
+}
+
+
+@media (min-width:1200px) {
+    .nav-item{
+margin-left: 20px ;
+margin-right: 20px ;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .nav-item{
+margin-left: 10px ;
+margin-right: 10px ;
+}
+}
+
+/* header and navbar end */
+
+
+
+/* section1 in home page */
+
+.sec1-heading {
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+color: #1F803E;
+
+}
+
+.sec1-para {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: #555555;
+}
+
+.sec1-viewmore {
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:#1F803E;
+}
+
+.sec1-icon {
+    width: 6.13px;
+height: 12.25px;
+top: 4.38px;
+left: 10.5px;
+border: 1.75px;
+color: #1F803E;
+
+}
+
+.img1 {
+
+border-radius: 5px;
+/* margin-left: 180px; */
+position:relative ;
+
+}
+
+.img2 {
+    position:absolute;
+}
+
+.img3 {
+    position:relative;
+    margin-right:50px;
+}
+
+.img4 {
+    position: relative;
+}
