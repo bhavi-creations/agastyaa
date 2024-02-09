@@ -7,9 +7,13 @@
     font-family: 'Inter', sans-serif;  
 }
  
-
 /* header and navbar start */
+ 
 
+
+.thicker-icon {
+    text-shadow: 0 0 2px #1F803E; /* Adjust the shadow size as needed */
+}
 .white-icon {
     color:   #1F803E;
     font-weight: bolder;
@@ -32,6 +36,7 @@ margin-right: 10px ;
 }
 
 /* header and navbar end */
+
 
 
 
