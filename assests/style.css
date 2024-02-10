@@ -257,7 +257,7 @@ color: #555555;
 /* map container start */
 
 .map_con{
-    background-image: url('images/map_org.png ') ;
+    /* background-image: url('images/map_org.png ') ; */
  
     background-size: cover;
     background-position: center;
