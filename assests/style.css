@@ -165,25 +165,28 @@ color: #1F803E;
 /* section 2 end  */
 
 /* start section3 in home page */
- .button {
+.button {
     width: 271px;
     height: 60px;
     
     border-radius: 52px;
     border-width: 0px;
     border-color: white;
-    
+ 
     background-color: white;
     padding:10px;
     
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
+ 
+    text-align: center;
     color:#1F803E;
+    /* margin-top:-30px; */
+    /* margin-left:35px */
     }
+
+
     
     .sec3-heading {
         font-family: Poppins;
@@ -191,12 +194,22 @@ color: #1F803E;
     font-weight: 700;
     line-height: 46px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align:center;
     color: #1F803E;
     
     }
     
  
+
+    @media (min-width:768px) and (max-width:991px){
+        .slider4_card{
+            margin-top: -20%;
+        }
+        
+    }
+    
+  
+        
 /* section3 ends in home page */
 
 
