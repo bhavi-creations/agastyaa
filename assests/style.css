@@ -5,7 +5,7 @@
 
 *{
     font-family: 'Inter', sans-serif;
-    /* background-color:#f3f3f3    */
+    /* background-color:#f8f8f8    */
 }
  
 /* header and navbar start */
@@ -182,6 +182,52 @@ color: #1F803E;
 /* end section1 in home page */
 
 
+/* section 2 start  */
+
+
+.tata_img_container{
+    background-image: url('images/acadimics.png');
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh;  */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: #fff;  */
+}
+ @media (min-width:576px) {
+    
+    .tata_img_container{
+        padding-right: 200px; 
+    }
+
+.tata {
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    background-color: #ffffff; 
+    border-bottom-right-radius:100px;
+      
+}
+  }
+
+  .tata {
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    background-color: #ffffff; 
+    border-bottom-right-radius:100px;
+      
+}
+
+/* section 2 end  */
+
 /* start section3 in home page */
  .button {
     width: 271px;
@@ -287,42 +333,3 @@ color: #555555;
     }
 /* map container end */
 
-.tata_img_container{
-    background-image: url('images/acadimics.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 100vh;  */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* color: #fff;  */
-}
- @media (min-width:576px) {
-    
-    .tata_img_container{
-        padding-right: 200px; 
-    }
-
-.tata {
-    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: relative;
-    background-color: #ffffff; 
-    border-bottom-right-radius:100px;
-      
-}
-  }
-
-  .tata {
-    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    position: relative;
-    background-color: #ffffff; 
-    border-bottom-right-radius:100px;
-      
-}
