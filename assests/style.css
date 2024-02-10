@@ -41,96 +41,32 @@ margin-right: 10px ;
 
 
 /* mini cards section start */
-.slider1_card{
-    position: relative;
-    background-color: #fff;
-    height: auto;
-    width: 23%;
-    /* margin-top: -12%; */
-    border-radius: 10px;
-    padding-inline-end: 2%;
-}
-.slider2_card{
-    position: relative;
-    background-color: #fff;
-    height: auto;
-    width: 23%;
-    /* margin-top: -12%; */
-    border-radius: 10px;
-}
-.slider3_card{
-    position: relative;
-    background-color: #fff;
-    height: auto;
-    width: 23%;
-    /* margin-top: -12%; */
-    border-radius: 10px;
-}
-.slider4_card{
-    position: relative;
-    background-color: #fff;
-    height: auto;
-    width: 23%;
-    /* margin-top: -12%; */
-    border-radius: 10px;
-}
- 
-@media (min-width:768px) and (max-width:991px){
-    .slider1_card{
-        margin-top: -20%;
-    }
+
+@media (min-width:768px) {
     
+
+ .mini_card{
+   margin-top: -50px;
+
+   
+ }
+
+ .mini_card_in{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-@media (min-width:768px) and (max-width:991px){
-    .slider2_card{
-        margin-top: -20%;
-    }
+@media (max-width:768px) {
     
-}
 
-@media (min-width:768px) and (max-width:991px){
-    .slider3_card{
-        margin-top: -20%;
+    .mini_card_in{
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
-    
-}
-
-@media (min-width:768px) and (max-width:991px){
-    .slider4_card{
-        margin-top: -20%;
-    }
-    
-}
-
-@media (min-width:991px) and (max-width:1640px){
-    .slider1_card{
-        margin-top: -11%;
-    }
-    
-}
-
-@media (min-width:991px) and (max-width:1640px){
-    .slider2_card{
-        margin-top: -11%;
-    }
-    
-}
-
-@media (min-width:991px) and (max-width:1640px){
-    .slider3_card{
-        margin-top: -11%;
-    }
-    
-}
-@media (min-width:991px) and (max-width:1640px){
-    .slider4_card{
-        margin-top: -11%;
-    }
-    
-}
-
-
+   }
 /* mini cards section end */
 
 
