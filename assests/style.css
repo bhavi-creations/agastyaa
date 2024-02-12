@@ -332,3 +332,48 @@
 
 
 /* image animations */
+
+
+
+
+/* Contact Form */
+.contact_form{
+    background-color:  #d3d3d3;
+    border-radius: 50px;
+}
+/* Ending Contact Form */
+
+/* GALLERY PAGE  */
+/* Import google font */
+ 
+
+ 
+/* Styling gallery section where all images are */
+ 
+
+/* Styling Particular Image */
+.gallery-img {
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+/* onHover image will expand little bit */
+.gallery-img:hover {
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+/* This section will be seen when we click on image */
+.image-popup-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+ 
+
+ 
+ 
+/* ENDING  GALLERY PAGE  */

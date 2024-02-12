@@ -101,30 +101,81 @@
         </div>
     </nav> 
      <!-- MAIN SLIDER SECTION -->
-     <section>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assests/images/colleges_1.png" class="d-block w-100 img-fluid" alt="... " height="500px">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="assests/images/colleges_1.png" class="d-block w-100 img-fluid" alt="..." height="500px">
-              </div>
-              <div class="carousel-item">
-                <img src="assests/images/colleges_1.png" class="d-block w-100 img-fluid" alt="..." height="500px">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+     <div class="heading">
+        <h1 class="text-center">Image Gallery</h1>
+      </div>
+        <!-- Image Gallery section all image in one div -->
+        <div class="gallery">
+                <!-- <img src=
+                "assests/images/images.jpg" 
+                alt="Image 2" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg"
+                alt="Image 3" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg" 
+                alt="Image 6" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg"
+                alt="Image 7" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg" 
+                alt="Image 8" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg"
+                alt="Image 9" class="gallery-img" onclick="showImage(src)">
+                <img src="assests/images/images.jpg" 
+                alt="Image 10" class="gallery-img" onclick="showImage(src)">          -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 ">
+                        <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                    </div>
+                </div>
+                <!-- <br> -->
 
-     </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"> 
+                        </div>
+                    </div>
+                </div>
+                <!-- <br> -->
+
+
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"  > 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img"  > 
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="assests/images/images.jpg" alt="Image 2" class="gallery-img" > 
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+       
+      <!-- Image containter where image will show in big size -->
+          <div class="image-popup-container" id="imagePopup">
+            <span class="close-button" onclick="closeImage()">×</span>
+            <img src="" alt="Popup Image" id="popupImage">
+          </div>
+        <script src="script.js"></script>
     <!-- ENDING  MAIN SLIDER SECTION -->
 
 
@@ -197,6 +248,8 @@
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
 
   </body>
 </html>
