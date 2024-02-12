@@ -1,112 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Animation</title>
 
-    <link rel="stylesheet" href="./assests/style.css">
-    <style>
-        .image-container {
-            position: relative;
-            width: 500px; /* Set the width and height according to your background image */
-            height: 300px;
-          }
-          
-          .background-image {
-            position: absolute;
-            z-index: 1; /* Ensure the background image is at the bottom */
-            width: 100%;
-            height: 100%;
-          }
-          
-          .overlay-image {
-            position: relative;
-            z-index: 2; /* Ensure the overlay images are above the background image */
-            /* Adjust top, left, etc. to position the overlay images as needed */
-          }
-          
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-light shadow">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-            </li>
-        </ul>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        </div>
-    </div>
-    </nav>
 
-    <!-- section1 -->
-    <!-- <div class="section1 mt-5" style="background-color:rgb(209, 238, 228)">
-        <div class="container">
-            <div class="row">
-                <div class="col-5 ms-auto ">
-                    <h1 class="sec1-heading">Lorem ipsum dolor sit amet consectetur. Sit fermentum </h1>
-                    <p class="sec1-para">sociis rutrum nisi sem laoreet  consequat est erat. Adipiscing imperdiet pharetra feugiat tellus. Lectus elit nec mauris enim bibendum </p>
-                    <p class="sec1-viewmore">View More<i class="fa-solid fa-arrow-right sec1-icon ms-2"></i></p>
-                </div>
-                <div class="col-6 " style="margin-left:150px;margin-bottom:-30px">
-                    <img src="./assests/images/secimg1.png" class="img3"/>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./assests/images/secimg2.png" class="img1"/>
-                </div>
-                <div class="col-3">
-                    <img src="./assests/images/green circle image (1).png" class="img2"/> 
-                </div>
-                <div class="col-3">
-                    <img src="./assests/images/secimg3.png" class="img4"/>
-                </div>
-            </div>
-        </div>
-    </div> -->
+<style>
+    /* Pulse Animation */
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
 
-<section style="background-color:rgb(213, 255, 241);margin-top:200px">
-    <div class="image-container" >
-        <img src="./assests/images/green circle image (1).png" alt="Background Image" class="background-image">
-        <img src="assests/images/secimg1.png" alt="Image 1" class="overlay-image">
-        <img src="assests/images/secimg2.png" alt="Image 2" class="overlay-image">
-        <img src="assests/images/secimg3.png" alt="Image 3" class="overlay-image">
-      </div>
-</section>    
+    .pulse {
+        animation: pulse 1s infinite;
+    }
+
+
+    @keyframes shake {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-5px);
+        }
+        50% {
+            transform: translateX(5px);
+        }
+        75% {
+            transform: translateX(-5px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .shake:hover {
+        animation: shake 0.5s ease;
+    }
+
+
+    /* Spin Animation */
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .spin {
+        animation: spin 2s infinite linear;
+    }
+
+
+
     
-  </body>
+    /* Arrow animation */
+    .button2::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+        top: 50%;
+        left: 50%;
+        transition: transform 0.3s ease;
+        transform: translate(-50%, -50%) rotate(-90deg); /* Initially hidden */
+    }
+
+    .button2:hover::before {
+        transform: translate(-50%, -50%) rotate(0); /* Show arrow on hover */
+    }
+
+    /* Expand effect */
+    .button2::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.2);
+        top: 0;
+        left: 0;
+        transition: transform 0.3s ease;
+        transform: scaleX(0); /* Initially hidden */
+        transform-origin: right; /* Expand from the right */
+    }
+
+    .button2:hover::after {
+        transform: scaleX(1); /* Expand effect on hover */
+        transform-origin: left; /* Expand from the left */
+    }
+
+     /* Arrow Left Animation */
+     .arrow-left::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid rgba(255, 255, 255, 0.5);
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .arrow-left:hover::before {
+        opacity: 1;
+    }
+
+     /* Arrow Right Animation */
+     .arrow-right::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(255, 255, 255, 0.5);
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .arrow-right:hover::before {
+        opacity: 1;
+    }
+
+    /* Arrow Up Animation */
+    .arrow-up::before {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgba(255, 255, 255, 0.5);
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .arrow-up:hover::before {
+        opacity: 1;
+    }
+
+</style>
+
+</head>
+<body>
+    <button class="button2 pulse">Apply Now (Pulse)</button>
+<button class="button2 slide-from-left">Apply Now (Slide from Left)</button>
+<button class="button2 fade-in">Apply Now (Fade-in)</button>
+<button class="button2 shake">Apply Now (Shake)</button>
+<button class="button2 spin">Apply Now (Spin)</button>
+<button class="button2 arrow-left">Apply Now (Arrow Left)</button>
+<button class="button2 arrow-right">Apply Now (Arrow Right)</button>
+<button class="button2 arrow-up">Apply Now (Arrow Up)</button>
+
+
+</body>
 </html>
