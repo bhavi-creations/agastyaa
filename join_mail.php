@@ -7,9 +7,19 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
-    $name = $_POST['name'] ?? '';
-    // $number = $_POST['phone'] ?? '';
+
+    $firstname = $_POST['firstname'] ?? '';
+    $lastname = $_POST['lastname'] ?? '';
+    $fathername = $_POST['fathername'] ?? '';
+    $mothername = $_POST['mothername'] ?? '';
+    $occupation = $_POST['occupation'] ?? '';
+    $dob = $_POST['dob'] ?? '';
+    $phone = $_POST['phone'] ?? '';
+    $adhar = $_POST['adhar'] ?? '';
     $email = $_POST['email'] ?? '';
+    $group = $_POST['group'] ?? '';
+    $presentschool = $_POST['presentschool'] ?? '';
+    $address = $_POST['address'] ?? '';
     $message = $_POST['message'] ?? '';
 
     // Create a new PHPMailer instance
@@ -34,9 +44,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Message for Joining';
         $mail->Body = "
             <h1>New Message</h1>
-            <p><strong>Name:</strong> $name</p>
-          
+            <p><strong>First  Name:</strong> $firstname</p>
+            <p><strong>Last Name:</strong> $lastname</p>
+            <p><strong>Father Name:</strong> $fathername</p>
+            <p><strong>Mother Name:</strong> $mothername</p>
+            <p><strong>Occupation:</strong> $occupation</p>
+            <p><strong>D.O.B:</strong> $dob</p>
+            <p><strong>Phone:</strong> $phone</p>
+            <p><strong>Adhar Num.:</strong> $adhar</p>
             <p><strong>Email:</strong> $email</p>
+            <p><strong>Group:</strong> $group</p>
+            <p><strong>Present School:</strong> $presentschool</p>
+            <p><strong>Address:</strong> $address</p>
             <p><strong>Message:</strong><br>$message</p>
         ";
 
