@@ -338,9 +338,37 @@
 
 /* Contact Form */
 .contact_form{
-    background-color:  #d3d3d3;
-    border-radius: 50px;
+    background-color:  #f8f8f8;
+    border-radius: 30px;
 }
+
+.inputname{
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputemail{
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.inputmessage{
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* Ending Contact Form */
@@ -415,6 +443,8 @@
 .Sahasara_aim_totalsection{
     background-color: rgb(248, 248, 248);
 }
+
+
 
 /* testimonials */
  
@@ -603,3 +633,124 @@ color:#007574;
 }
 
 
+/* WhatsApp Logo */
+.whatsapp_logo {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+.whatsapp_logo img {
+    width:50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+/* Scroll-to-Top Button */
+#scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#4698db; /* Background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 80%;
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+#scroll-top:hover {
+    background-color: #01539D; /* Hover background color */
+}
+
+
+#scrollBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #1f803ece;
+    color: #FFF88D;
+    border: none;
+    border-radius:50%;
+    cursor: pointer;
+    display: none;
+    /* height: 20px; */
+}
+
+/* about page */
+.sec1-img1 {
+    /* margin-bottom:100px; */
+    margin-top:-50px;
+}
+.sec1-img2 {
+    margin-top:-450px;
+    margin-left:30px;
+}
+/* .sec1-content {
+    margin-left:-90px;
+    margin-top:20px;
+} */
+
+@media(min-width:576) and (max-width:767) {
+    
+}
+
+@media (min-width:768px) and (max-width:992px){
+   
+}
+
+
+@media (min-width:992px) and (max-width:1600px){
+    .sec1-content {
+        margin-left:-90px;
+        margin-top:20px;
+    }
+}
+
+/* for sec2  */
+/* @media(min-width:576) and (max-width:767) {
+    .sec2-heading {
+        margin-top:90px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+   
+} */
+
+.sec2-img1 {
+    height:300px;
+    width:400px;
+    background-color:antiquewhite;
+    border-radius:30%;
+}
+.sec2-img2 {
+    height:300px;
+    width:200px;
+    margin-top:100px;
+     background-color:rgb(215, 246, 250);
+     border-radius:30%;
+}
+.sec2-img3 {
+    height:300px;
+    width:600px;
+    margin-top:100px;
+    background-color:rgb(243, 215, 250);
+    border-radius:30%;
+}
+.sec2-img4 {
+    height:300px;
+    width:400px;
+    background-color:rgb(229, 250, 215);
+    border-radius:30%;
+}
+
+@media (min-width:992px) and (max-width:1600px){
+    .sec1-content {
+        margin-left:-90px;
+        margin-top:20px;
+    }
+}

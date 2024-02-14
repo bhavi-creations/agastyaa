@@ -97,53 +97,63 @@
 
 
 
-    <!-- STARTING MAIN CONTENT  -->
-    <section>
-        <div class="container contact_form mt-5" >
-            <div class="row">
-                <div class="col-lg-5 pt-5" style="background-color: #1F803E; border-radius: 50px;">
-                   <h1  class="text-light text-center" >GET IN TOUCH</h1>
-                   <form action="contact-form-process.php" method="post" class="ms-5 ps-5 mt-5 mb-3">
-                    <label for="name" class="text-light">Name</label><br>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email"  class="text-light" >Email</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="message"  class="text-light" >Message</label><br>
-                    <textarea id="message" name="message" rows="4" cols="23" required></textarea><br>
-                    <!-- <input type="submit"  value="Submit" class="text-center"> -->
-                    <input type="submit" value="Submit"  class="">
+  <!-- STARTING MAIN CONTENT  -->
+  <section>
+    <div class="container contact_form mt-5 shadow " >
+        <div class="row">
+            <div class="col-lg-5 pt-5" style="background-color: #0e672a; border-radius: 30px;">
+               <h1  class="text-light text-center" >GET IN TOUCH</h1>
+               <form action="contact_mail.php" method="post" class="ms-5 ps-5 mt-5 mb-3">
+
+                <label for="name" class="text-light ms-2">Name</label><br>
+                <input type="text" id="name" name="name"  class="inputname mb-2"> <br>
+
+                <label for="number"  class="text-light ms-2" >Phone</label><br>
+                <input type="phone" id="phone" name="phone"  class="inputemail mb-2" required><br>
+                
+                <label for="email"  class="text-light ms-2" >Email</label><br>
+                <input type="email" id="email" name="email"  class="inputemail mb-2" required><br>
+
+                <label for="message"  class="text-light ms-2" >Message</label><br>
+                <textarea id="message" name="message" rows="4"    class="inputmessage mb-2" required></textarea><br>
+             
+
+                <div class="ms-5 mt-2 ">
+                    <button type="submit" class="btn btn-danger" style="background-color: #ff5733;">submit</button>
+                </div>
+
                 </form>
-                  
+              
+            </div>
+            <div class="col-lg-7 mt-5">
+                <p class=" p-4 ms-4 " style="text-align: justify;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis voluptatum ea, cumque voluptatibus neque itaque mollitia corrupti sapiente similique.</p>
+                <div class="col-lg-12 d-flex flex-row justify-content-center mb-5">
+                    <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15264.654748768113!2d82.2446931!3d16.9664969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829eb1547518d%3A0xcf859436d6495fe!2sSri%20Agastyaa%20CO-SCHOOL%20%26%20ACADEMY!5e0!3m2!1sen!2sin!4v1707557078777!5m2!1sen!2sin"   style="border:0; width:90%;height:300px;border-radius:30px;border-width:0px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <h5 style="color: white;"> <strong>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Excepturi dolorem d</strong> </h5> -->
                 </div>
-                <div class="col-lg-7 mt-5">
-                    <p class="text-light p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis voluptatum ea, cumque voluptatibus neque itaque mollitia corrupti sapiente similique.</p>
-                    <div class="col-lg-12 d-flex flex-row justify-content-center mb-5">
-                        <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15264.654748768113!2d82.2446931!3d16.9664969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829eb1547518d%3A0xcf859436d6495fe!2sSri%20Agastyaa%20CO-SCHOOL%20%26%20ACADEMY!5e0!3m2!1sen!2sin!4v1707557078777!5m2!1sen!2sin"   style="border:0; width:90%;height:200px;border-radius:30px;border-width:0px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <!-- <h5 style="color: white;"> <strong>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> Excepturi dolorem d</strong> </h5> -->
+                <!-- <div class="row">
+                    <div class="col-6">
+                        <p class="text-light ps-5">facebook</p> 
+                        <p class="text-light ps-5">facebook</p> 
+                        <p class="text-light ps-5">facebook</p> 
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <p class="text-light ps-5">facebook</p> 
-                            <p class="text-light ps-5">facebook</p> 
-                            <p class="text-light ps-5">facebook</p> 
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex ">
-                                <i class="fa-brands fa-facebook pr-2 footicon"></i>
-                                <i class="fa-brands fa-instagram pr-2 footicon"></i>
-                                <i class="fa-brands fa-twitter pr-2 footicon"></i>
-                                <i class="fa-brands fa-youtube pr-2 footicon"></i>
-                                <i class="fa-brands fa-linkedin pr-2 footicon"></i>
-                                <i class="fa-brands fa-pinterest pr-2 footicon"></i>
-                            </div>
+                    <div class="col-6">
+                        <div class="d-flex ">
+                            <i class="fa-brands fa-facebook pr-2 footicon"></i>
+                            <i class="fa-brands fa-instagram pr-2 footicon"></i>
+                            <i class="fa-brands fa-twitter pr-2 footicon"></i>
+                            <i class="fa-brands fa-youtube pr-2 footicon"></i>
+                            <i class="fa-brands fa-linkedin pr-2 footicon"></i>
+                            <i class="fa-brands fa-pinterest pr-2 footicon"></i>
                         </div>
                     </div>
-                  
-                </div>
+                </div> -->
+              
             </div>
         </div>
-    </section>
-    <!-- ENDING  MAIN CONTENT  -->
+    </div>
+</section>
+<!-- ENDING  MAIN CONTENT  -->
 
 
 
@@ -154,43 +164,37 @@
 
     
 
-  <!-- FOOTER -->
-  <footer class="text-light text-center py-3 mt-5 foot " style="background-color:#ffffff">
-    <div class="container">
+<footer class="text-light text-center py-3 mt-5 foot " style="background-color:#fff78c3a; ">
+    <div class="container" >
         <div class="row">
-            <div class="col-8 col-md-4 col-sm-7 col-xs-6 col-lg-4 col-xl-4 ">
-                <img src="assests/images/new-removebg-preview.png" alt="" class="d-flex img-fluid"  />
-                <p class="paragraph1 mt-2 footer-paragraph" style="color:#555555"> Unlock your potential at Sahasra College with innovative education, dedicated faculty, and state-of-the-art facilities.</p>
-                <div class="d-flex ">
-                    <i class="fa-brands fa-facebook pr-2 footicon"></i>
-                    <i class="fa-brands fa-instagram pr-2 footicon"></i>
-                    <i class="fa-brands fa-twitter pr-2 footicon"></i>
-                    <i class="fa-brands fa-youtube pr-2 footicon"></i>
-                    <i class="fa-brands fa-linkedin pr-2 footicon"></i>
-                    <i class="fa-brands fa-pinterest pr-2 footicon"></i>
-                </div>
+            <div class="col-8 col-md-4 col-sm-7 col-xs-6 col-lg-4 col-xl-4  d-flex flex-column  justify-content-center">
+                <img src="assests/images/foot-removebg-preview new.png " alt="" class="img-fluid  "  />
+           
             </div>
             <div class=" col-4 col-md-2 col-sm-5 col-xs-6 col-lg-2 col-xl-2 ">
-                <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter ">About us </h3>
-                <a href="#" ><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Home</p></a>
-                <a href="#"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Admission</p></a>
-                <a href="#"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Academics</p></a>
-                <a href="#"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">FAQS</p></a>
+                <h3 class="paragraph1 mt-5 footer-heading" style="color: #ce0028;;font-weight:bold;font-size:18px;font-family:inter ">Links</h3>
+                <a href="index.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">Home</p></a>
+                <a href="about.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">About Us</p></a>
+                <a href="gallery.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">Gallery</p></a>
+                <a href="contact.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">Contact Us</p></a>
             </div>
             <div class="col-7 col-md-3 col-sm-7 col-xs-6 col-lg-3 col-xl-3">
-                <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter">Our Service</h3>
-                <a href="./about.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">School</p></a>
-                <a href="./achievements.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">junior college</p></a>
-                <a href="./admission.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Free course</p></a>
-                <a href="./admission.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Events</p></a>
+                <h3 class="paragraph1 mt-5 footer-heading" style="color:#ce0028;font-weight:bold;font-size:18px;font-family:inter">Our Service</h3>
+                <a href="school.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">School</p></a>
+                <a href="college.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">junior college</p></a>
+                <a href="join.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold ;">Join</p></a>
+                <a href="contact.html" style=" text-decoration: none;" ><p class="paragraph1 footer-paragraph" style="color:#1F803E;font-weight: bold;">FAQS</p></a>
             </div>
             <div class="col-5 col-md-3 col-sm-5 col-xs-6 col-lg-3 col-xl-3">
-                <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter">information </h3>
-                <a><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Help & Support</p>
-                <a href="./contact.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Privacy&Policy</p>
-                <a><p class="paragraph footer-paragraph" style="color:#6A6B6C;">Pricing</p>
-                <a><p class="paragraph footer-paragraph" style="color:#6A6B6C;">Terms & Condition </p>
-                
+                <h3 class="paragraph1 mt-5 mb-5 footer-heading" style="color:#ce0028;font-weight:bold;font-size:18px;font-family:inter">Social Media </h3>
+               
+                    <a href=""> <i style="font-size: 24px; color: #0000ff; " class="fa-brands fa-facebook px-1  footicon"></i></a> 
+                    <a href=""> <i style="font-size: 24px; color: #ff00aa;" class="fa-brands fa-instagram  px-1 footicon"></i></a>
+                    <a href=""> <i style="font-size: 24px;" class="fa-brands fa-twitter  px-1 footicon"></i></a>
+                    <a href=""> <i style="font-size: 24px; color: #ce0028;" class="fa-brands fa-youtube  px-1  footicon"></i></a>
+                    <a href=""> <i style="font-size: 24px;" class="fa-brands fa-linkedin   px-1 footicon"></i></a>
+                    <a href=""> <i style="font-size: 24px ; color: #ce0028;" class="fa-brands fa-pinterest px-1  footicon"></i></a>
+                     
             </div>
         </div>
     </div><hr/>
@@ -199,23 +203,67 @@
            <div class="row">
               <div class="col-xl-8 col-lg-9 col-md-12 col-12">
                  <div class="footer-widget__copyright">
-                    <span style="color:#0C0531">  ©2024 Sahasra Junior College . <i>All Rights Reserved by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:#026F7F">Bhavi Creations</a></i></span>
+                    <span style="color:#0C0531;font-weight: bold;">  ©2024 Sahasra Junior College . <i>All Rights Reserved by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color: #ce0028;;font-weight:bold;">Bhavi Creations</a></i></span>
                  </div>
               </div> 
               <div class="col-xl-4 col-lg-3 col-md-12 col-12">
                  <div class="footer-widget__copyright-info info-direction">
                     <ul class="d-flex align-items-center">
-                        <li><a href="trems.html" style="text-decoration: none;color:#026F7F">Terms and conditions</a></li>&nsbp
+                         <a href="trems.html" style="text-decoration: none;color:#0C0531;font-weight: bold;">Terms and conditions &nbsp;&nbsp;</a>  
                        
-                       <li><a href="privacy.html" style="text-decoration: none;color:#026F7F">Privacy policy</a></li>
-                     </ul>
-                 </div>
+                        <a href="privacy.html" style="text-decoration: none;color:#0C0531;font-weight: bold;">Privacy policy</a> 
+                     </ul> 
+                  </div>
               </div>
            </div>
         </div>
      </div>
+
+    
 </footer>
   <!-- ENDING  FOOTER -->
+
+    
+  <div class="whatsapp_logo ">
+        <a href="#"
+            target="_blank">
+            <img class="logo" class="whatsapp_icon"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==">
+        </a>
+    </div> 
+    
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up " style="width:4px;   margin-left: -8px;"></i></button>
+    
+    
+    
+    <script>
+  
+
+ 
+
+      // Function to scroll to the top of the page
+      function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
+        }
+    
+        // Show scroll button when scrolling down
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+
+
+
+    </script>
+    
 
 
 
