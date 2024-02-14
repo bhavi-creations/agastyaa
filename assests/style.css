@@ -767,3 +767,26 @@ color:#007574;
         margin-top:20px;
     }
 }
+
+.v_line {
+    border-left: 5px solid rgb(2, 99, 135);
+    height: 50px;
+    margin: 0 auto;
+    width:0px;
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    .sec2-1 {
+        margin-left:190px;
+    }
+}
+@media(min-width:768px) and (max-width:992px) {
+    .sec2-3 {
+        margin-left:190px;
+    }
+}
+@media(min-width:768px) and (max-width:992px) {
+    .sec3-2 {
+        margin-top:100px;
+    }
+}   
