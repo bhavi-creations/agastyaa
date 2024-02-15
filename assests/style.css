@@ -231,6 +231,17 @@
     color: #1F803E;
 }
 
+.secng-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F803E;
+}
+
+
 .sec4-para {
     font-family: Poppins;
     font-size: 17px;
@@ -475,7 +486,7 @@
     
     @media (min-width:1200px) {
         .admin_ssion_card{
-            margin-top: -700px !important;
+            margin-top: -650px !important;
            
         }
 
@@ -607,7 +618,9 @@ color:#007574;
           margin-bottom: -60px !important;
   
           }
-
+.last-sec{
+    margin-bottom :40px
+}
 
  @media (min-width:768px) and (max-width:992px){
     .last-sec {
@@ -790,3 +803,32 @@ color:#007574;
         margin-top:100px;
     }
 }   
+
+
+
+.campus{
+    position: relative;
+    margin-top: -10px;
+    margin-left: 20%;
+}
+
+@media(min-width:400px) and (max-width:482px) {
+    .campus1 {     
+        margin-left: 4% !important;
+    }
+}
+@media(min-width:482px) and (max-width:518px) {
+    .campus1 {
+        margin-left: 10% !important;
+    }
+}
+@media(min-width:518px) and (max-width:575px) {
+    .campus1  {
+        margin-left: 12% !important;
+    }
+}   
+
+
+.campus1 img {
+    border-radius: 15px;
+}
