@@ -829,6 +829,48 @@ color:#007574;
 }   
 
 
+.campus{
+    position: relative;
+    margin-top: -8%;
+    margin-left: 17%;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.campus button{
+    
+    font-size: 20px;
+    font-weight: 600
+}
+
+ 
 .campus1 img {
     border-radius: 15px;
+}
+
+
+@media(min-width:400px) and (max-width:482px) {
+    .campus1 {     
+        margin-left: 4% !important;
+    }
+}
+@media(min-width:482px) and (max-width:518px) {
+    .campus1 {
+        margin-left: 10% !important;
+    }
+}
+@media(min-width:518px) and (max-width:575px) {
+    .campus1  {
+        margin-left: 12% !important;
+    }
+}  
+@media(min-width:576px) and (max-width:768px) {
+    .campus1  {
+        margin-left: 11% !important;
+    }
+} 
+@media(min-width:768px) and (max-width:992px) {
+    .campus {
+        margin-left: 2% !important;
+    }
 }
