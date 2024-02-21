@@ -874,3 +874,11 @@ color:#007574;
         margin-left: 2% !important;
     }
 }
+
+
+@media (min-width:375px) and (max-width:443px) {
+    .card_college{
+        height: 500px !important;
+    }
+    
+}
